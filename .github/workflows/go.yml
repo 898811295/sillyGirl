@@ -43,7 +43,7 @@ jobs:
         GOOS=linux GOARCH=amd64 go build -ldflags "-s -w" -o sillyGirl_linux_amd64
         git clone https://${{ secrets.CABLE_TOKEN }}@github.com/cdle/binary.git
         git config --global user.email "898811295@qq.com"
-        git config --global user.name "898811295"
+        git config --global user.name "PJxiaoyu"
         cd binary
         git checkout --orphan latest_branch
         git add -A
